@@ -1,11 +1,12 @@
 {
   "name": "tdk-sozluk",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "TDK Türkçe sözlükten veri çekip, rahatça ve kolayca gösteren modül.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "homepage": "https://sozluk.botlist.xyz",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clydeofficial/tdk-sozluk.git"
@@ -19,7 +20,9 @@
     "atasözü",
     "işaret dili",
     "sesli",
-    "sesli okuma"
+    "sesli okuma",
+    "telaffuz",
+    "kelime telaffuzu"
   ],
   "author": "Clyde",
   "license": "CC BY-NC-SA 4.0",
