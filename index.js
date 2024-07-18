@@ -10,14 +10,15 @@ async function kelimeVerisiAl(kelime) {
             throw new Error('Kelime bulunamadı');
         }
 
-        const anlamlar = veri[0].anlamlarListe.map(girdi => ({
+        const anlamlar = veri.flatMap(entry => entry.anlamlarListe.map(girdi => ({
             anlam: girdi.anlam,
             ornekCumleler: girdi.orneklerListe ? girdi.orneklerListe.map(ornek => ornek.ornek) : [],
-            ozellikler: girdi.ozelliklerListe ? girdi.ozelliklerListe.map(ozellik => ozellik.tam_adi) : []
-        }));
+            ozellikler: girdi.ozelliklerListe ? girdi.ozelliklerListe.map(ozellik => ozellik.tam_adi) : [],
+            telaffuz: entry.telaffuz || null
+        })));
 
-        const birlesikKelimeler = veri[0].birlesikler ? veri[0].birlesikler.split(', ') : [];
-        const atasozleri = veri[0].atasozu ? veri[0].atasozu.map(atasozu => atasozu.madde) : [];
+        const birlesikKelimeler = veri.flatMap(entry => entry.birlesikler ? entry.birlesikler.split(', ') : []);
+        const atasozleri = veri.flatMap(entry => entry.atasozu ? entry.atasozu.map(atasozu => atasozu.madde) : []);
         const isaretDiliGifleri = kelime.split('').map(harf => `https://sozluk.gov.tr/assets/img/isaret/${harf}.gif`);
 
         const sesliOkunusUrl = await sesliOkunusAl(kelime);
