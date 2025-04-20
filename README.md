@@ -72,3 +72,9 @@ const { kelimeVerisiAl } = require('tdk-sozluk');
     }
 })();
 ```
+## Katkıda Bulunanlar
+<a href="https://github.com/clydeofficial/tdk-sozluk/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=clydeofficial/tdk-sozluk" />
+</a>
+
+Proje ile ilgili geri bildirim, katkı veya önerileriniz için issue veya pull request açabilirsiniz. Katkılarınızı memnuniyetle karşılarız.
