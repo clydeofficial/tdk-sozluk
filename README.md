@@ -2,7 +2,7 @@
 
 ![Download](https://img.shields.io/npm/dt/tdk-sozluk.svg?style=flat-square) ![Download](https://img.shields.io/npm/dm/tdk-sozluk.svg?style=flat-square) ![Download](https://img.shields.io/npm/dw/tdk-sozluk.svg?style=flat-square) ![License](https://img.shields.io/npm/l/tdk-sozluk.svg?style=flat-square)
 
-Bu modül, Türk Dil Kurumu (TDK)'ndan Türkçe kelimelerin anlamlarını, örnek cümlelerini, birleşik kelimelerini, atasözlerini, kelimenin sesli okunuşunu, telaffuzunu ve Türk İşaret Dili GIF'lerini çekmek için tasarlanmıştır. Ayrıca [site](https://sozluk.botlist.xyz) ile API hizmeti de sağlamaktır. Değişiklik günlüğüne ulaşmak için [buraya](https://sozluk.botlist.xyz/degisiklik-gunlugu) tıklayabilirsin.
+Bu modül, Türk Dil Kurumu (TDK)'ndan Türkçe kelimelerin anlamlarını, örnek cümlelerini, birleşik kelimelerini, atasözlerini, kelimenin sesli okunuşunu, telaffuzunu ve Türk İşaret Dili GIF'lerini çekmek için tasarlanmıştır. Ayrıca [site](https://sozluk.iamemre.dev) ile API hizmeti de sağlamaktır. Değişiklik günlüğüne ulaşmak için [buraya](https://sozluk.iamemre.dev/degisiklik-gunlugu) tıklayabilirsin.
 
 ## Kurulum
 
