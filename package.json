@@ -1,0 +1,59 @@
+{
+  "name": "tdk-sozluk",
+  "version": "4.0.0",
+  "description": "Comprehensive Node.js module for accessing Turkish Language Association (TDK) dictionaries including Current Turkish, Etymology, Proverbs, Turkic Dialects, and Metrology dictionaries with modern architecture and TypeScript support.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node examples/test-all-dictionaries.js"
+  },
+  "homepage": "https://sozluk.clydeis.me",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clydeofficial/tdk-sozluk.git"
+  },
+  "keywords": [
+    "TDK",
+    "Türkçe",
+    "Turkish",
+    "sözlük",
+    "dictionary",
+    "kelime",
+    "word",
+    "anlam",
+    "meaning",
+    "atasözü",
+    "proverb",
+    "deyim",
+    "idiom",
+    "telaffuz",
+    "pronunciation",
+    "etimoloji",
+    "etymology",
+    "lehçeler",
+    "dialects",
+    "Turkic languages",
+    "comparative linguistics",
+    "metrology",
+    "metroloji",
+    "measurement science",
+    "API",
+    "TypeScript"
+  ],
+  "author": "Clyde",
+  "license": "CC BY-NC-SA 4.0",
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
