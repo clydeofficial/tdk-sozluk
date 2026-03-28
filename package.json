@@ -1,0 +1,45 @@
+{
+  "name": "tdk-sozluk",
+  "version": "1.1.0",
+  "description": "TDK'nin (Türk Dil Kurumu) resmi sözlük API'si için Node.js modülü - Güncel Türkçe Sözlük, Atasözleri, Derleme, Tarama, Batı Kökenli, Etimoloji ve daha fazlası",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "require": "./src/index.js",
+      "import": "./src/index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "tdk",
+    "türkçe",
+    "sözlük",
+    "sozluk",
+    "turkish",
+    "dictionary",
+    "atasözü",
+    "deyim",
+    "etimoloji",
+    "güncel türkçe sözlük"
+  ],
+  "author": "Clyde",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clydeofficial/tdk-sozluk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clydeofficial/tdk-sozluk/issues"
+  },
+  "homepage": "https://github.com/clydeofficial/tdk-sozluk#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
